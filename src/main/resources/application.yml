@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: TRAINDASHBOARD
+  datasource:
+    url: jdbc:h2:~/traindb
+    username: java_rw
+    password: java_rw
+    driverClassName: org.h2.Driver
+  h2:
+    console.enabled: true
